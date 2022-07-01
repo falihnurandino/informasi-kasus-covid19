@@ -57,11 +57,15 @@ class SearchBar extends HTMLElement {
            cursor: pointer;
            margin-left: auto;
            padding: 16px;
-           background-color: #A30E07;
+           background-color: #F13433;
            color: #fff;
            border: 0;
            text-transform: uppercase;
            border-radius: 50px;
+       }
+
+       .search-container > button:hover {
+          background-color: #D43517;
        }
       
        @media screen and (max-width: 550px){
